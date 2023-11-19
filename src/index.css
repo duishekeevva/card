@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-4 {
+  width: 33.33%;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.img {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 263px;
+  top: 9px;
+  background-color:white;
+  border: 0.5px solid #9d9d9d;
+  padding: 3px 5px;
+  border-radius: 50%;
+}
+
+.overview {
+  font-size: 14px;
+  color: grey;
+}
+
+.previousPrice {
+  color: grey;
+}
+
+.stars {
+  color: red;
+}
+
+.reviews {
+  display: flex;
+}
