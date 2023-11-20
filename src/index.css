@@ -16,8 +16,9 @@ code {
   display: flex;
   flex-wrap: wrap;
 }
-.col-4 {
-  width: 33.33%;
+.col-6 {
+  width: 50%;
+  padding: 15px;
 }
 
 .card {
@@ -32,8 +33,8 @@ code {
 
 .icon {
   position: absolute;
-  left: 263px;
-  top: 9px;
+  left: 273px;
+  top: 23px;
   background-color:white;
   border: 0.5px solid #9d9d9d;
   padding: 3px 5px;
